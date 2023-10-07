@@ -11,7 +11,7 @@ import numpy as np
 Print the numpy version and the configuration (★☆☆)
 
 < h2
-hint: np.__version__, np.show_config)
+hint: np.__version__, np.show_config()
 
 < a2
 print(np.__version__)
@@ -44,7 +44,7 @@ How to get the documentation of the numpy add function from the command line? (�
 hint: np.info
 
 < a5
-%run `python -c "import numpy; numpy.info(numpy.add)"`
+!python -c "import numpy; numpy.info(numpy.add)"
 
 < q6
 Create a null vector of size 10 but the fifth value which is 1 (★☆☆)
